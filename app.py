@@ -9,7 +9,7 @@ from tkinter import messagebox, Toplevel
 from PIL import Image, ImageTk  # Required for images
 
 # Set user email
-USER_EMAIL = "testprasadwork@gmail.com"  # Replace with actual registered email
+USER_EMAIL = "testwork@gmail.com"  # Replace with actual registered email
 
 # Paths to images
 PROJECT_IMAGE_PATH = r"C:\form\pprojectimg.png"
@@ -22,8 +22,8 @@ def generate_password():
 
 # Function to send password via email
 def send_email(to_email, password):
-    sender_email = "testprasadwork@gmail.com"  # Replace with your email
-    sender_password = "anvvsmscvzejtrqn"  # Replace with your email app password
+    sender_email = "testwork@gmail.com"  # Replace with your email
+    sender_password = "anvsmscvzejtrqn"  # Replace with your email app password
     subject = "USB Control Access Password"
     body = f"Your password to enable/disable USB ports is: {password}"
 

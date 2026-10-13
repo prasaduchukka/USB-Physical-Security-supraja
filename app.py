@@ -23,7 +23,7 @@ def generate_password():
 # Function to send password via email
 def send_email(to_email, password):
     sender_email = "testwork@gmail.com"  # Replace with your email
-    sender_password = "anvsmscvzejtrqn"  # Replace with your email app password
+    sender_password = ""  # Replace with your email app password
     subject = "USB Control Access Password"
     body = f"Your password to enable/disable USB ports is: {password}"
 
